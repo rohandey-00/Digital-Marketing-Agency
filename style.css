@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Nunito Sans";
+}
+
+
+.frontPage{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.front-des{      /* whole front page  */
+    height: 29rem;
+    width: 45rem;
+    margin-top: 12rem;
+}
+
+.front-img{
+    
+    padding-top: 1rem;
+    
+}
+
+.frontImg{       /* img */
+    width:35rem;
+    border-radius: 1.3rem;
+}
+
+
+#award{
+    color: rgb(255, 3, 58);
+    font-weight: 1rem;
+    font-size:1.4rem;
+}
+
+#Digital{
+    font-size: 3.3rem;
+    font-weight:800;
+    margin-top: 2rem;
+}
+
+#contuct{
+height: 3rem;
+width: 9rem;
+background-color: rgb(255, 3, 58);
+border: 0;
+color: white;
+margin-top: 1.5rem;
+cursor: pointer;
+}
+
+
+p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+/*********************  pop up CONTAIER*************************/
+
+
+.closebtn{                                     /* button for close after submitting*/
+ padding-left: 25rem;
+ width: 2rem;
+}
+
+
+.popup{
+    background-color: rgba(0, 0, 0, .1);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popupContainer{
+    height: 450px;
+    width: 800px;
+    background-color: #fff;
+    position: relative;
+
+
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.popupContainer{
+    padding: 1rem 3rem 3rem 3rem;
+}
+
+#email{
+    height: 2.5rem;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    
+    
+}
+
+#firstName{
+    height: 2.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+}
+
+#lastName{
+    height: 2.5rem;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 1rem;
+    margin: 1.5rem;
+}
+
+/* .consent{
+    display: none;
+}   checkbox */
+
+#submitbtn{
+    height: 3rem;
+    width: 100%;
+    margin-top: 2rem;
+    color: #fff;
+    background-color: rgb(255, 3, 58);
+    border: none;
+    border-radius: .6rem;
+}
+
+
+
+

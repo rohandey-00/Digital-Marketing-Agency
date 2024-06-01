@@ -4,8 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  
+<div class="frontPage">
+    <div class="front-des">
+        <h4 id="award"> AWARD WINNING</h4>
+        <h1 id="Digital">DIGITAL MARKETIG AGENCY</h1>
+        <p>Morbi sed lacus nec rices finiibus feugiat et frementum nibh. Pellenntentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <button id="contuct">CONTACT US</button>
+    </div>
     
+    <div class="front-img">
+        <img src="/Assets/office-desk-6952919_1920.jpg" alt="image" class="frontImg"> 
+    </div>
+
+   
+    
+    <div class="popup"> 
+        <div class="popupContainer">
+            <div class="closebtn"> &times</div>
+            <h2 id="talktous">Talk to us</h2>
+            
+            <br> <br>
+                <form id="contactForm" action="/#">
+
+                    <input type="email" id="email" name="email" required placeholder="Work email*"> <br>                  
+                    <input type="text" id="firstName" name="firstName" required placeholder="First name* ">
+                    <input type="text" id="lastName" name="lastName" required placeholder="Last name*">
+                    <br>
+                    <label>
+                        <input type="checkbox" id="consent" name="consent" required>
+                        I agree to Fyle's terms and conditions, and provide consent to send me communication.
+                    </label> <br>
+                    <button id="submitbtn" type="submit">Contact Us</button>
+                </form>
+        </div>
+    </div>   
+</div>   
+    
+
+<script src="app.js"></script>
 </body>
 </html>
