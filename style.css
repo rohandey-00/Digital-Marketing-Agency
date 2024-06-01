@@ -1,16 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family:"Nunito Sans";
+    background-color: #FAFAFA;
 }
-
 
 .frontPage{
     height: 100vh;
@@ -18,8 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+ 
 }
 
 .front-des{      /* whole front page  */
@@ -41,7 +37,7 @@
 
 
 #award{
-    color: rgb(255, 3, 58);
+    color:#FF3366;
     font-weight: 1rem;
     font-size:1.4rem;
 }
@@ -55,7 +51,7 @@
 #contuct{
 height: 3rem;
 width: 9rem;
-background-color: rgb(255, 3, 58);
+background-color: #FF3366;
 border: 0;
 color: white;
 margin-top: 1.5rem;
@@ -71,19 +67,17 @@ p{
 
 
 
-
-
 /*********************  pop up CONTAIER*************************/
-
 
 .closebtn{                                     /* button for close after submitting*/
  padding-left: 25rem;
  width: 2rem;
+ cursor: pointer;
 }
 
 
 .popup{
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .6);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -149,11 +143,126 @@ p{
     width: 100%;
     margin-top: 2rem;
     color: #fff;
-    background-color: rgb(255, 3, 58);
+    background-color: #FF3366;
     border: none;
     border-radius: .6rem;
+    cursor: pointer;
 }
 
 
 
 
+
+
+/*+++++++++++++++++++++++++++++++++++++++++         MIDDLE   page   ++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+.midPage{
+    height: 100vh;
+    width: 100%;
+    padding-left: 6rem;
+}
+
+.upperPart{
+    display: flex;
+}
+
+.leftDis{
+   
+    height: 19rem;
+    width: 28%;
+    padding-top: 7rem;
+    
+}
+
+.rightDis{
+    
+    height: 19rem;
+    padding-left: 5rem;
+    padding-top: 8rem;
+    padding-right: 25rem;
+    padding-left: 3rem;
+    
+}
+
+.whattodo{
+    color: #FF3366;
+    font-size: 1.4rem;   
+    
+}
+
+.ServicesProvide{
+    font-size: 2.3rem;
+}
+
+#MorbiTxt{
+    font-size: 1rem;  
+    font-weight: 750;
+     
+}
+
+
+/* middle pictures */
+
+
+.middlepart{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imageMID{      /* to resize image properly*/ 
+    height: 100%;
+    width: 100%;
+    border-radius: .48rem;
+}
+
+.img3{
+    height: 526px;
+    width: 370px;
+    background-color: #FF3366;
+    border-radius: .48rem;
+   
+   
+}
+
+.pic{
+    width: 24rem;
+    height: 35rem;
+}
+
+.webdev{
+    background-color: #FF3366;
+    color: #fff;
+    padding-left: 1rem;
+}
+
+
+.webdev{
+    margin-top:3.7rem;
+    margin-left: 25%;
+}
+
+.morbi{
+    margin:1.8rem;
+    color: #fff;
+    background-color: #FF3366
+}
+
+.icon{
+    background-color: #FF3366;
+    margin-top: 8rem;
+    margin-left: 10rem;
+}
+
+#readmorbtn{
+    height: 3rem;
+    width: 10rem;
+    border: none;
+}
+.readme{
+    background-color: #FF3366;
+    margin:6.5rem;
+}
