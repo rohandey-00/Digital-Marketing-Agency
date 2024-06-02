@@ -31,8 +31,9 @@
 }
 
 .frontImg{       /* img */
-    width:35rem;
-    border-radius: 1.3rem;
+    width:30rem;
+    height: 40rem;
+    border-radius: .5rem;
 }
 
 
@@ -175,7 +176,7 @@ input{
    
     height: 16rem;
     width: 70rem;
-    padding-top: 7rem;
+    padding-top: 6.7rem;
     
 }
 
@@ -354,7 +355,7 @@ input{
 .thirdpUpper{
     height: 16rem;
     width: 100%;
-    padding-top: 7rem;
+    padding-top: 7.4rem;
 }
 
 .ourProject{
@@ -420,4 +421,112 @@ input{
 #iconss{
     height: 4.5rem;
     width: 4.5rem;
+}
+
+
+
+/*======================================== last page  ==================================== */
+
+.lastPage{
+    height: 100vh;
+    width: 100%;
+}
+
+.lastHeading{
+    margin-top: 10rem;
+    padding-top: 3rem;
+}
+.smallBox{
+    width: 16.875rem;
+    height: 14.563rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+.smallBox:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1.1);
+}
+
+#smallicon{
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.lastSmallNoOne{
+
+}
+.lastSmallDisOne{
+    margin-top: .5rem;
+}
+
+.lastPageUpperLower{
+    display: flex;
+    justify-content: space-around;
+    gap:3rem;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    margin-top: 4rem;
+}
+
+.lastPageLower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lastdis{
+    height: 8rem;
+    width: 52rem;
+    padding: 2REM;
+    margin-bottom: 2rem;
+    
+}
+
+
+
+.container{
+    position: relative;
+}
+
+#mergeimg{
+    position: absolute;
+    z-index: 0;
+}
+
+#mergepara{
+    position: relative;
+    z-index: 2;
+    font-size: 1rem;
+}
+
+
+
+#jannat{
+    display: inline-block;
+    color: #FF3147;
+}
+
+#janDis{
+    display: inline-block;
+    margin-bottom: 2rem;
+    opacity: .6;
+}
+
+.mostLst{
+    height: 19.3rem;
+    width: 100%;
+    margin-top: 5rem;
+    background-color:#FF3147;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostLst img{
+    background-color:#FF3147;
 }
