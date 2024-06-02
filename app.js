@@ -18,3 +18,18 @@ btns = document.querySelectorAll('#readmorbtn');
         });
     }
 
+
+// track cursor and change the image..
+
+
+
+document.querySelector(".distwo").addEventListener("click", () => {
+    document.querySelector(".thirdLeftPic img").src = "/Assets/image.png"; 
+});
+
+document.querySelector(".disone").addEventListener("click", () => {
+    document.querySelector(".thirdLeftPic img").src = "/Assets/fantasy-2701633_1920.jpg"; 
+});
+document.querySelector(".disthree").addEventListener("click", () => {
+    document.querySelector(".thirdLeftPic img").src = "/Assets/unique-4025390_1280.jpg";  
+});

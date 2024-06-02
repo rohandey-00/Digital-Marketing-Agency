@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family:"Nunito Sans";
-    background-color: #FAFAFA;
+    background-color: #FFFFFF;
 }
 
 .frontPage{
@@ -197,6 +197,7 @@ input{
 
 .ServicesProvide{
     font-size: 2.3rem;
+    font-weight: 800;
 }
 
 #MorbiTxt{
@@ -225,8 +226,8 @@ input{
 }
 
 .card {
-    width: 21rem;
-    height: 32rem;
+    width: 19rem;
+    height: 29rem;
     perspective: 1000px;
 }
 
@@ -341,4 +342,82 @@ input{
 
 
 /*+++++++++++++++++++++++++++++++++++++++++         3RD   page   ++++++++++++++++++++++++++++++++++++++++++++++++*/
+/* first I developed the down picture page then the upper icons part*/
 
+.thirdPage{
+    height: 200vh;
+    width: 100%;
+    padding-left: 6rem;
+    
+}
+
+.thirdpUpper{
+    height: 16rem;
+    width: 100%;
+    padding-top: 7rem;
+}
+
+.ourProject{
+    text-align: center;
+}
+
+.whyWe{
+    text-align: center;
+}
+
+
+.thirdpLower{
+    display: flex;
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
+}
+
+.box{
+    width: 23.125rem;
+    height: 11.813rem;
+    margin-left: 2rem;
+    padding: 2.5rem;
+    background-color: #F6F6F6;
+
+}
+
+.box:hover .thridrighth3,
+.box:hover .thridrightp,
+.box:hover {
+    background-color: #FF3147;
+    cursor:pointer;
+}
+
+.thridrighth3{
+ font-weight: 700;
+ background-color: #F6F6F6;
+}
+
+.thridrightp{
+    font-size: 1rem;
+    background-color: #F6F6F6;
+}
+
+
+/* icon box*/
+.iconbox{
+    height: 16.563rem;
+    height: 12.813rem;
+}
+
+.diviconsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+    gap: 4rem;
+}
+
+.iconboxdis{
+    background-color: #fff;
+}
+
+#iconss{
+    height: 4.5rem;
+    width: 4.5rem;
+}
