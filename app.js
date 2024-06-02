@@ -24,12 +24,12 @@ btns = document.querySelectorAll('#readmorbtn');
 
 
 document.querySelector(".distwo").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "/Assets/image.png"; 
+    document.querySelector(".thirdLeftPic img").src = "/assets/image.png"; 
 });
 
 document.querySelector(".disone").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "/Assets/fantasy-2701633_1920.jpg"; 
+    document.querySelector(".thirdLeftPic img").src = "/assets/hand.jpg"; 
 });
 document.querySelector(".disthree").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "/Assets/unique-4025390_1280.jpg";  
+    document.querySelector(".thirdLeftPic img").src = "/assets/unique.jpg";  
 });
