@@ -139,10 +139,6 @@ input{
     margin: 1.5rem;
 }
 
-/* .consent{
-    
-}   checkbox */
-
 #submitbtn{
     height: 3rem;
     width: 100%;
@@ -154,8 +150,10 @@ input{
     cursor: pointer;
 }
 
-
-
+/* access checkbox */
+#consent{
+   accent-color:  #FF3366;
+}
 
 
 
