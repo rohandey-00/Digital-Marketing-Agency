@@ -13,7 +13,7 @@ btns = document.querySelectorAll('#readmorbtn');
 
     for (btn of btns){
         btn.addEventListener("click", ()=>{
-            const url='https://www.fylehq.com/';
+            const url='https://www.google.com/';
             window.open(url);
         });
     }
