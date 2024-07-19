@@ -1,9 +1,12 @@
 document.getElementById("contuct").addEventListener("click", function(){
     document.querySelector(".popup").style.display = "flex";
+    document.body.style.overflow = "hidden"; // Stop page scroll
 });
 
 document.querySelector(".closebtn").addEventListener("click", function(){
     document.querySelector(".popup").style.display = "none";
+    document.body.style.overflow = "auto"; // Resume page scroll
+
 });
 
 
@@ -13,7 +16,7 @@ btns = document.querySelectorAll('#readmorbtn');
 
     for (btn of btns){
         btn.addEventListener("click", ()=>{
-            const url='https://www.google.com/';
+            const url='https://github.com/rohandey-00';
             window.open(url);
         });
     }
@@ -24,12 +27,12 @@ btns = document.querySelectorAll('#readmorbtn');
 
 
 document.querySelector(".distwo").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "./Assets/image.png"; 
+    document.querySelector(".thirdLeftPic img").src = "./Assets/fruits.jpg"; 
 });
 
 document.querySelector(".disone").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "./Assets/hand.jpg"; 
+    document.querySelector(".thirdLeftPic img").src = "./Assets/pexels-darya-gryazeva-73722285-10111555.jpg"; 
 });
 document.querySelector(".disthree").addEventListener("click", () => {
-    document.querySelector(".thirdLeftPic img").src = "./Assets/unique.jpg";  
+    document.querySelector(".thirdLeftPic img").src = "./Assets/cake.jpg";  
 });

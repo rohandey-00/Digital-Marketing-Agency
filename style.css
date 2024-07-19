@@ -20,19 +20,18 @@
 
 .front-des{      /* whole front page  */
     height: 29rem;
-    width: 45rem;
+    width: 55rem;
     margin-top: 12rem;
 }
 
 .front-img{
-    
     padding-top: 1rem;
-    
+        
 }
 
 .frontImg{       /* img */
-    width:30rem;
-    height: 40rem;
+    width:100%;
+    height: 54rem;
     border-radius: .5rem;
 }
 
@@ -89,8 +88,8 @@ p{
 }
 
 .popupContainer{
-    height: 450px;
-    width: 800px;
+    height: 500px;
+    max-width: 600px;
     background-color: #fff;
     position: relative;
 
@@ -100,47 +99,43 @@ p{
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    max-width: 500px;
+    
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1rem 3rem;
 }
 
-
-.popupContainer{
-    padding: 1rem 3rem 3rem 3rem;
-}
 
 input{
     outline: none;
 }
 
 #email{
-    height: 2.5rem;
+    height: 3.5rem;
     width: 100%;
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 1rem;
-    
-    
+   
 }
 
 #firstName{
-    height: 2.5rem;
+    height: 3.5rem;
     border: none;
     border-bottom: 1px solid black;
-    margin-bottom: 1rem;
+   
 }
 
 #lastName{
-    height: 2.5rem;
+    height: 3.5rem;
     border: none;
     border-bottom: 1px solid black;
     margin-bottom: 1rem;
-    margin: 1.5rem;
+    margin: 1.3rem;
 }
 
 #submitbtn{
-    height: 3rem;
+    height: 3.8rem;
     width: 100%;
     margin-top: 2rem;
     color: #fff;
@@ -155,6 +150,16 @@ input{
    accent-color:  #FF3366;
 }
 
+.closebtn{
+    font-size: 36px; /* Adjust this value to make it bigger or smaller */
+    color: black;  
+    cursor: pointer;
+    margin-left: 4.7rem;
+}
+
+#talktous{
+    font-size: 34px;
+}
 
 
 /*+++++++++++++++++++++++++++++++++++++++++         MIDDLE   page   ++++++++++++++++++++++++++++++++++++++++++++++++*/
@@ -163,54 +168,57 @@ input{
 .midPage{
     height: 100vh;
     width: 100%;
-    padding-left: 6rem;
+    
 }
 
 .upperPart{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .leftDis{
    
-    height: 16rem;
+    height: 10rem;
     width: 70rem;
-    padding-top: 6.7rem;
-    
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
 }
 
 .rightDis{
+
+    margin-bottom: 5rem;
+    height: 4rem;
+    width: 70%;
+    font-size: 21px;
+    margin-top: 3rem;
     
-    height: 16rem;
-    padding-left: 3rem;
-    padding-top: 8rem;
-    padding-right: 25rem;
-    padding-left: 3rem;
-    
+     
 }
+
+
 
 .whattodo{
     color: #FF3366;
-    font-size: 1.4rem;   
+    font-size: 2rem;   
     
 }
 
 .ServicesProvide{
-    font-size: 2.3rem;
+    font-size: 3rem;
     font-weight: 800;
 }
 
-#MorbiTxt{
-    font-size: 1rem;  
-    font-weight: 750;
-     
-}
 
 
 .middlepart{
     height: 50%;
     display: flex;
-    justify-content: space-between;
-        
+    justify-content: space-evenly;        
 }
 
 .imageMID{      /* to resize image properly*/ 
@@ -221,12 +229,12 @@ input{
 
 .card-container {
     display: flex;
-    gap: 3.2rem;
+    gap: 4rem;
 }
 
 .card {
-    width: 19rem;
-    height: 29rem;
+    width: 25rem;
+    height: 35rem;
     perspective: 1000px;
 }
 
@@ -344,20 +352,21 @@ input{
 /* first I developed the down picture page then the upper icons part*/
 
 .thirdPage{
-    height: 200vh;
+    height: 180vh;
     width: 100%;
-    padding-left: 6rem;
+    /* padding-left: 6rem; */
     
 }
 
 .thirdpUpper{
     height: 16rem;
     width: 100%;
-    padding-top: 7.4rem;
+    padding-top: 6.5rem;
 }
 
 .ourProject{
     text-align: center;
+    font-size: 2rem; 
 }
 
 .whyWe{
@@ -365,17 +374,36 @@ input{
 }
 
 
+.thirdpmiddle{
+    padding: 8rem;
+}
+
 .thirdpLower{
     display: flex;
-    margin-bottom: 10rem;
-    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.thirdLeftPic{
+    height: 42rem;
+    width: 55rem;
+}
+
+.thirdLeftPic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* Optional , no effect on page */
 }
 
 .box{
-    width: 23.125rem;
-    height: 11.813rem;
-    margin-left: 2rem;
-    padding: 2.5rem;
+    width: 25rem;
+    height: 14rem;
+    margin-left: 2.3rem;
+    padding: 2rem;
     background-color: #F6F6F6;
 
 }
@@ -396,6 +424,9 @@ input{
     font-size: 1rem;
     background-color: #F6F6F6;
 }
+
+
+
 
 
 /* icon box*/
@@ -426,23 +457,24 @@ input{
 /*======================================== last page  ==================================== */
 
 .lastPage{
-    height: 100vh;
+    height: 130vh;
     width: 100%;
 }
 
 .lastHeading{
-    margin-top: 10rem;
+    margin-top: 5.4rem;
     padding-top: 3rem;
 }
 .smallBox{
-    width: 16.875rem;
-    height: 14.563rem;
+    width: 19rem;
+    height: 17rem;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: transform 0.3s ease;
+    /* margin-left: 5rem; */
 }
 .smallBox:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -464,15 +496,15 @@ input{
     display: flex;
     justify-content: space-around;
     gap:3rem;
-    margin-left: 5.5rem;
-    margin-right: 5.5rem;
-    margin-top: 4rem;
+    
+    margin: 4rem 5.5rem 5rem 5.5rem;  /*top, right, bottom, left*/
 }
 
 .lastPageLower{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 3rem;
 }
 
 .lastdis{
@@ -487,6 +519,7 @@ input{
 
 .container{
     position: relative;
+    margin-bottom: 5rem;
 }
 
 #mergeimg{
